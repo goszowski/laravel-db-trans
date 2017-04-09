@@ -1,6 +1,6 @@
 [![Total Downloads](https://poser.pugx.org/goszowski/laravel-db-trans/d/total.svg)](https://packagist.org/packages/goszowski/laravel-db-trans)
 [![Latest Stable Version](https://poser.pugx.org/goszowski/laravel-db-trans/v/stable.svg)](https://packagist.org/packages/goszowski/laravel-db-trans)
-[![Latest Unstable Version](https://poser.pugx.org/goszowski/laravel-db-trans/v/unstable.svg)](https://packagist.org/packages/goszowskilaravel-db-trans)
+[![Latest Unstable Version](https://poser.pugx.org/goszowski/laravel-db-trans/v/unstable.svg)](https://packagist.org/packages/goszowski/laravel-db-trans)
 [![License](https://poser.pugx.org/goszowski/laravel-db-trans/license.svg)](https://packagist.org/packages/goszowski/laravel-db-trans)
 
 ## LaravelDbTrans
