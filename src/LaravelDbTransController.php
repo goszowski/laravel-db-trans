@@ -86,8 +86,9 @@ class LaravelDbTransController extends BaseController
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy($key)
     {
-        //
+        LaravelDbTrans::where('key', $key)->delete();
+        return redirect(route('laravel-db-trans.index') . '?page=' . request('page') . '&key=' . request('key') . '&translation=' . request('trans'));
     }
 }

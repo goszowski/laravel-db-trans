@@ -60,14 +60,19 @@
                               <a href="{{ route('laravel-db-trans.edit' , ['id' => $item->key] ) }}?page={{request('page')}}&key={{request('key')}}&translation={{request('translation')}}"  class="btn btn-primary btn-xs" title="Edit Career"><span class="glyphicon glyphicon-pencil" aria-hidden="true"/></a>
                               {!! Form::open([
                                   'method'=>'DELETE',
-                                  'route' => ['laravel-db-trans.edit', $item->id],
+                                  'route' => ['laravel-db-trans.destroy', $item->key],
                                   'style' => 'display:inline'
                               ]) !!}
-                              {!! Form::button('<span class="glyphicon glyphicon-trash" aria-hidden="true" title="Delete Career" />', array(
+
+                              <input type="hidden" name="page" value="{{request('page')}}">
+                              <input type="hidden" name="key" value="{{request('key')}}">
+                              <input type="hidden" name="trans" value="{{request('translation')}}">
+                              
+                              {!! Form::button('<span class="glyphicon glyphicon-trash" aria-hidden="true" title="'.__('LaravelDbTrans.Delete translation').'" />', array(
                                   'type' => 'submit',
                                   'class' => 'btn btn-danger btn-xs',
                                   'title' => 'Delete Career',
-                                  'onclick'=>'return confirm("Confirm delete?")'
+                                  'onclick'=>'return confirm("'.__('LaravelDbTrans.Confirm delete').'?")'
                               )) !!}
                               {!! Form::close() !!}
                           </td>
