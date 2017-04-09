@@ -2,7 +2,9 @@
     "name": "goszowski/laravel-db-trans",
     "require": {
         "php": ">=5.6.0",
-        "illuminate/support": "5.*"
+        "illuminate/support": "5.*",
+        "laravelcollective/html": ">=5.1.0",
+        "mcamara/laravel-localization": "1.1.*"
     },
     "license": "MIT",
     "authors": [
