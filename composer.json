@@ -1,0 +1,21 @@
+{
+    "name": "goszowski/laravel-db-trans",
+    "require": {
+        "php": ">=5.6.0",
+        "illuminate/support": "5.*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jaroslaw Goszowski",
+            "email": "goszowski@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+      "psr-4": {
+          "Goszowski\\LaravelDbTrans\\": "src/"
+        },
+      "files": ["vendor/goszowski/laravel-db-trans/src/__.php"]
+    }
+}
