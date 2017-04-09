@@ -16,6 +16,6 @@
       "psr-4": {
           "Goszowski\\LaravelDbTrans\\": "src/"
         },
-      "files": ["vendor/goszowski/laravel-db-trans/src/__.php"]
+      "files": ["src/__.php"]
     }
 }
